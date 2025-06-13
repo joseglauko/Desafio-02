@@ -1,0 +1,18 @@
+
+Campo de Entrada de Texto (TextField):
+
+XX Centralizado na tela, um TextField com um bom preenchimento (padding) para facilitar a digitação.
+?? O teclado virtual deve aparecer automaticamente quando o usuário entra nesta tela ou toca no campo.
+XX O campo deve ser capaz de exibir o hábito já salvo, se houver um, permitindo que o usuário o edite.
+
+
+Botão de Ação Principal:
+
+XX Ao ser pressionado, o texto do TextField é salvo na persistência de dados do aplicativo.
+XX Após salvar, o usuário é automaticamente redirecionado para a Tela Principal de Contagem.
+
+
+Navegação:
+
+XX Se o app for aberto pela primeira vez e não houver hábito salvo, o usuário será direcionado diretamente para esta tela.
+XX Se já houver um hábito, um ícone de "engrenagem" ou "lápis" na AppBar da Tela Principal de Contagem levará o usuário de volta a esta tela para edição.
